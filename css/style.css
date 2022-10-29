@@ -150,6 +150,7 @@ img {
 
 .header-link .icon {
     margin-right: 10px;
+    fill: currentColor;
 }
 
 .header-link .icon:hover,
@@ -176,12 +177,6 @@ img {
                 rgba(47, 48, 58, 0.4)), 
                 url("../images/back-hero.jpg");
 }
-
-/* .hero .container{
-    background-image: linear-gradient(to right,
-                rgba(47, 48, 58, 0.4),
-                url("../images/back-hero.jpg"));
-} */
 
 .hero-title {
     display: flex;
@@ -253,7 +248,6 @@ img {
     display: flex;
     width: 270px;
     height: 120px;
-    padding: 25px 100px;
     margin-bottom: 30px;
     background-color: var(--bcg-team);
     align-items: center;
@@ -418,7 +412,7 @@ footer {
     margin-bottom: 0;
     padding-top: 0;
     padding-bottom: 0;
-    align-items: center;
+    align-items: baseline;
 }
 .footer .coordinates {
     margin-right: 70px;
